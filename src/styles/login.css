@@ -1,0 +1,69 @@
+	.backg{
+
+		background-image: url(../images/bg.jpg);
+		background-size: auto;
+		background-repeat: no-repeat;
+		background-position: center;
+		color: 'white';
+		opacity: 0.8;
+		height: 50vh;
+
+	}
+	
+	html,body{
+
+		height:100vh;
+		font-size: 100%;
+		background-color:rgb(234, 212, 195);
+		
+	}
+
+	.jumbotron > h1{
+		color: "white";
+	}
+	
+	
+
+
+	@media screen and (max-width: 600px) {
+		.login-box {
+			width:90%;
+		}
+	}
+	@media screen and (min-width: 600px) {
+		.login-box {
+			width:60%;
+		}
+	}
+
+	.login-box{
+		position: fixed;
+		
+		
+		top: 50%;
+		left:50%;
+		transform: translate(-50%, -35%);
+
+		
+		
+		background-color: rgb(175, 153, 103);
+		
+		z-index: 100;
+		-moz-box-shadow: 0 0 60px 7px #8c7474;
+		-webkit-box-shadow: 0 0 60px 7px #8c7474;
+		box-shadow: 0 0 60px 7px #8c7474;
+	}
+
+	.login-box > h1{
+		font-family: 'Poly', serif;
+		font-weight: 60px;
+		font-size: 2em;
+		padding: 1.5em 1em;
+	}
+	.backg h1{
+		font-size: 4em;
+		font-family: 'Courgette', cursive;
+	}
+	.btn-info{
+		color: "black";
+	}

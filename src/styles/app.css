@@ -1,0 +1,44 @@
+.no-border{
+	border: none;
+	border-bottom: 2px solid;
+
+
+
+
+}
+.no-border:focus{
+	border: none;
+	border-bottom: 3px solid;
+	box-shadow: 0 8px 6px -6px gray;
+
+}
+.text-font{
+	font-family: 'Courgette', cursive;
+}
+.shadow{
+	box-shadow: 0 0 60px 7px #8c7474;
+}
+.font-set{
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 5em;
+}
+.loader {
+  border: 5px solid #f3f3f3; /* Light grey */
+  border-top: 7px solid rgb(89, 49, 14,0.8); /* Blue */
+  border-radius: 50%;
+  width: 5em;
+  height: 5em;
+  animation: spin 0.9s linear infinite;
+  margin: 20px auto;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.hover:hover{
+	text-decoration: underline;
+
+	text-decoration-color: white;
+}
+
